@@ -1,6 +1,6 @@
 import ollama
-from llm.base import LLMBase
-
+#from llm.base import LLMBase
+from mem0.llms.base import LLMBase
 
 class OllamaLLM(LLMBase):
     def __init__(self, model="llama3"):
